@@ -13,3 +13,7 @@ CREATE TABLE public.animals
 
 ALTER TABLE IF EXISTS public.animals
     OWNER to postgres;
+
+// Adding a COLUMN species
+ALTER TABLE IF EXISTS public.animals
+    ADD COLUMN species character varying;
