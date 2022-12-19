@@ -94,3 +94,16 @@ CREATE TABLE visits (
 
 
 -- Vet clinic database: database performance audit
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Add an email column to your owners table
+ALTER TABLE owners ADD COLUMN email VARCHAR(120);
+
+-- Create a non-clustered index for visits table
+CREATE INDEX ON visits (animal_id);
+CREATE INDEX ON visits (vet_id);
+
+-- Create a non-clustered index for owners table
+CREATE INDEX ON owners (email);
