@@ -229,3 +229,17 @@ JOIN species ON animals.species_id = species.id
 WHERE vets.name IN ('Maisy Smith')
 GROUP BY species.name
 ORDER BY COUNT(animal_id) DESC LIMIT 1;
+
+
+
+-- Vet clinic database: database performance audit
+
+SELECT COUNT(*) FROM visits where animal_id = 4;
+SELECT * FROM visits where vet_id = 2;
+SELECT * FROM owners where email = 'owner_18327@mail.com';
+
+
+-- Use EXPLAIN ANALYZE on the previous queries to check what is happening. Take screenshots of them - they will be necessary later.
+EXPLAIN ANALYZE SELECT COUNT(*) FROM visits where animal_id = 4;
+EXPLAIN ANALYZE SELECT * FROM visits where vet_id = 2;
+EXPLAIN ANALYZE SELECT * FROM owners where email = 'owner_18327@mail.com';
