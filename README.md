@@ -15,11 +15,11 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 [Vet Clinic Database] <a name="about-project">Vet Clinic Database is a relational database to manage data stored for a vet clinic. It is implemented using PostgreSQL</a>
+# 📖 [Vet Clinic Database] <a name="about-project"></a>
 
-**Vet Clinic Database** is a database to manage data stored for a vet clinic. It uses PostgreSQL.
+**Vet Clinic Database** Vet Clinic Database is a relational database to manage data stored for a vet clinic. It is implemented using PostgreSQL.
 
-<img src="./vet_clinic_db_diagram.png" />
+<img src="./vet_schema.png" />
 
 ## 🛠 Built With <a name="built-with"></a>
 
